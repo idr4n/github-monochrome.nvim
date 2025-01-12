@@ -94,7 +94,7 @@ function M.setup(opts)
     white_bright   = colors.fg,
   }
 
-  opts.on_colors(colors)
+  opts.on_colors(colors, opts.style)
 
   return colors, opts
 end

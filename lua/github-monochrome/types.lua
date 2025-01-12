@@ -17,11 +17,13 @@
 ---@field floats? string
 ---@field sidebars? string
 
+---@alias style "light"|"dark"
+
 ---@class gm.Config
----@field style "light"|"dark"
+---@field style style
 ---@field transparent? boolean
 ---@field terminal_colors? boolean
 ---@field styles? gm.Styles
----@field on_colors? fun(colors: ColorScheme)
----@field on_highlights? fun(highlights: gm.Highlights, colors: ColorScheme)
+---@field on_colors? fun(colors: ColorScheme, style: style)
+---@field on_highlights? fun(highlights: gm.Highlights, colors: ColorScheme, style: style)
 ---@field plugins? table<string, boolean|{enabled:boolean}>

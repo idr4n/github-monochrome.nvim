@@ -1,6 +1,6 @@
 # 🎨 Github Monochrome
 
-A set of monochromatic light and dark themes, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed). Only a light and dark themes are available at the moment, but a few others variations are planned to be added. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/).
+A set of monochromatic light and dark themes, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed). Only a light and dark themes (styles) are available at the moment, but a few others variations are planned to be added. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/) (more on the way).
 
 The project structure follows closely [Tokyonight.nivm](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
@@ -57,12 +57,14 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
   --- You can override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  on_colors = function(colors) end,
+  --- @param style? "light"|"dark"
+  on_colors = function(colors, style) end,
 
   --- You can override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  on_highlights = function(highlights, colors) end,
+  --- @param style? "light"|"dark"
+  on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>
   plugins = {
@@ -90,15 +92,27 @@ Example:
     floats = "dark",
     sidebars = "dark",
   },
-  on_colors = function(c)
-    c.bg = vim.o.background == "light" and c.bg or "#000000"
+  on_colors = function(c, s)
+    -- applies to all styles
+    -- c.bg = vim.o.background == "light" and c.bg or "#000000"
     c.number = c.purple
+
+    -- applies to 'light' style only
+    if s == "light" then
+      c.bg = "#F4F4F4"
+    end
   end,
-  on_highlights = function(hl, c)
+  on_highlights = function(hl, c, s)
+    -- applies to all styles
     hl.IblScope = { fg = "#634E89" }
     hl.FloatBorder = { fg = c.magenta }
     hl.TreesitterContext = { bg = c.none }
     hl.TreesitterContextBottom = { underline = true, sp = c.magenta }
+
+    -- applies to 'light' style only
+    if s == "light" then
+      hl.FloatBorder = { fg = c.red }
+    end
   end,
 }
 ```
@@ -125,7 +139,7 @@ Currently, the following plugins are supported (more will be added as needed):
 
 ## Acknowledgements
 
-- [folke/tokyonight](https://github.com/folke/tokyonight.nvim)
-- [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome)
-- [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed)
-- [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme)
+- [folke/tokyonight](https://github.com/folke/tokyonight.nvim): made this plugin possible (_standing on the shoulders of giants!_).
+- [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome): where inspiration came from.
+- [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed): nice tweaking to VSCode's version.
+- [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme): general reference.

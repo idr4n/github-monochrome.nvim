@@ -23,12 +23,14 @@ M.defaults = {
 
   --- Override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  on_colors = function(colors) end,
+  --- @param style "light"|"dark"
+  on_colors = function(colors, style) end,
 
   --- Override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  on_highlights = function(highlights, colors) end,
+  --- @param style "light"|"dark"
+  on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>
   plugins = {
