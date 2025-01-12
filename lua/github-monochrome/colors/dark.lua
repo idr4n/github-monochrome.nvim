@@ -3,8 +3,7 @@
 local colors = {
   -- Base Colors
   bg             = "#0D1117",
-  fg             = "#C0CAF5",
-  -- fg             = "#C8D3F5",
+  fg             = "#C8D3F5",
   fg_dark        = "#8A92B2",
   black          = "#2A384B",
   blue           = "#79C0FF",
