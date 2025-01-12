@@ -54,9 +54,9 @@ function M.setup(colors, opts)
   end
 
   -- manually enable/disable plugins
-  for plugin, group in pairs(M.plugins) do
+  for _, group in pairs(M.plugins) do
     local use = opts.plugins[group]
-    use = use == nil and opts.plugins[plugin] or use
+    use = use == nil and opts.plugins[group] or use
     if use ~= nil then
       if type(use) == "table" then
         use = use.enabled

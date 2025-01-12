@@ -69,9 +69,11 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
   ---@type table<string, boolean|{enabled:boolean}>
   plugins = {
     -- set to false to manually enable plugins
+    -- or set to true and then manually disable plugins
     all = true,
-    -- add any plugins that you want to enable from those supported
-    -- telescope = true,
+    -- add any plugins that you want to enable/disable from those supported
+    -- telescope = false,
+    -- ["indent-blankline"] = false
   },
 }
 ```
@@ -121,22 +123,24 @@ Example:
 <details>
 <summary>Currently, the following plugins are supported (more will be added as needed):</summary>
 
-- gitsigns.nvim
-- glance.nvim
-- indent-blankline.nvim
-- mini.pick
-- mini.tabline
-- neo-tree.nvim
-- noice.nvim
-- nvim-cmp
-- nvim-notify
-- nvim-tree
-- render-markdown.nvim
-- telescope.nvim
-- treesitter-context
-- snacks.indent
-- vim-illuminate
-- which-key.nvim
+(use the name in parenthesis to enable/disable in config)
+
+- gitsigns.nvim (gitsigns)
+- glance.nvim (glance)
+- indent-blankline.nvim (indent-blankline)
+- mini.pick (mini_pick)
+- mini.tabline (mini_tabline)
+- neo-tree.nvim (neo-tree)
+- noice.nvim (noice)
+- nvim-cmp (cmp)
+- nvim-notify (notify)
+- nvim-tree.lua (nvim-tree)
+- nvim-treesitter-context (treesitter-context)
+- render-markdown.nvim (render-markdown)
+- telescope.nvim (telescope)
+- snacks indent (snacks_indent)
+- vim-illuminate (illuminate)
+- which-key.nvim (which-key)
 
 </details>
 
