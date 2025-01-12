@@ -67,33 +67,16 @@ function M.setup(colors, opts)
   local names = vim.tbl_keys(groups)
   table.sort(names)
 
-  local cache_key = opts.style
-  local cache = opts.cache and Util.cache.read(cache_key)
-
-  local inputs = {
-    colors = colors,
-    plugins = names,
-    version = Config.version,
-    opts = { transparent = opts.transparent, styles = opts.styles },
-  }
-
-  local ret = cache and vim.deep_equal(inputs, cache.inputs) and cache.groups or nil
-
-  if not ret then
-    ret = {}
-    -- merge highlights
-    for group in pairs(groups) do
-      for k, v in pairs(M.get(group, colors, opts)) do
-        ret[k] = v
-      end
-    end
-    Util.resolve(ret)
-    if opts.cache then
-      Util.cache.write(cache_key, { groups = ret, inputs = inputs })
+  -- merge highlights
+  local ret = {}
+  for group in pairs(groups) do
+    for k, v in pairs(M.get(group, colors, opts)) do
+      ret[k] = v
     end
   end
+  Util.resolve(ret)
 
-  opts.on_highlights(ret, colors)
+  opts.on_highlights(ret, colors, opts.style)
 
   return ret, groups
 end
