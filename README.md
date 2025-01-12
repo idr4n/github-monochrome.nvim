@@ -4,6 +4,8 @@ A set of monochromatic light and dark themes, inspired by [huytd/vscode-github-l
 
 The project structure follows closely [Tokyonight.nivm](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
+![github-monochrome](https://github.com/user-attachments/assets/55ab0296-fcbb-49f3-ace1-15c98c9b44d8)
+
 ## Requirements
 
 - Neovim >= 0.8.0
