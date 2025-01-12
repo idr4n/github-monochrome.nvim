@@ -42,17 +42,18 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
   style = "light", -- "light", "dark"
   transparent = false,
   terminal_colors = true, -- Configure the colors used when opening a `:terminal`
+  lualine_bold = { a = true, b = false, c = false }, -- make lualine sections a, b, or c bold
 
   styles = {
     comments = { italic = true },
     keywords = { bold = true },
     functions = { bold = true },
     statements = { bold = true }, -- e.g., try/except statements, but also if, for, etc.
-    conditionals = { bold = false }, -- e.g., if statements
-    loops = { bold = false }, -- e.g., for, while statements
+    conditionals = { bold = true }, -- e.g., if statements
+    loops = { bold = true }, -- e.g., for, while statements
     variables = {},
-    floats = "normal",
-    sidebars = "normal",
+    floats = "normal", -- "dark", "transparent" or "normal"
+    sidebars = "normal", -- "dark", "transparent" or "normal"
   },
 
   --- You can override specific color groups to use other groups or a hex color
