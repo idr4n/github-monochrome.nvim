@@ -23,6 +23,7 @@
 ---@field style style
 ---@field transparent? boolean
 ---@field terminal_colors? boolean
+---@field lualine_bold? {a:boolean, b:boolean, c:boolean}
 ---@field styles? gm.Styles
 ---@field on_colors? fun(colors: ColorScheme, style: style)
 ---@field on_highlights? fun(highlights: gm.Highlights, colors: ColorScheme, style: style)
