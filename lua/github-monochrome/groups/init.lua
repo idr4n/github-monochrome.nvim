@@ -1,6 +1,5 @@
 -- This work is originally based on and modified from https://github.com/folke/tokyonight.nvim.
 
-local Config = require("github-monochrome.config")
 local Util = require("github-monochrome.util")
 
 local M = {}

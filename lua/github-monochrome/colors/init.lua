@@ -11,7 +11,7 @@ M.styles = setmetatable({}, {
   end,
 })
 
----@param opts gm.Config
+---@param opts? gm.Config
 function M.setup(opts)
   opts = require("github-monochrome.config").extend(opts)
 
