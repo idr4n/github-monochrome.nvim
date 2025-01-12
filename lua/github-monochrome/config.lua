@@ -34,11 +34,10 @@ M.defaults = {
 
   ---@type table<string, boolean|{enabled:boolean}>
   plugins = {
-    -- set to false to manually enable/disable plugins
-    -- or set to true and then manually disable plugins
+    -- set to false to manually enable plugins
     all = true,
-    -- add any plugins that you want to enable/disable from those supported
-    -- telescope = false,
+    -- add any plugins that you want to enable from those supported
+    -- telescope = true,
   },
 }
 

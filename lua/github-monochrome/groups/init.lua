@@ -20,6 +20,7 @@ M.plugins = {
   ["nvim-treesitter-context"]   = "treesitter-context",
   ["render-markdown.nvim"]      = "render-markdown",
   ["telescope.nvim"]            = "telescope",
+  ["snacks.indent"]             = "snacks_indent",
   ["vim-illuminate"]            = "illuminate",
   ["which-key.nvim"]            = "which-key",
 }

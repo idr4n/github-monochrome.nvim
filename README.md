@@ -69,10 +69,9 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
   ---@type table<string, boolean|{enabled:boolean}>
   plugins = {
     -- set to false to manually enable plugins
-    -- or set to true and then manually disable plugins
     all = true,
-    -- add any plugins that you want to enable/disable from those supported
-    -- telescope = false,
+    -- add any plugins that you want to enable from those supported
+    -- telescope = true,
   },
 }
 ```
@@ -119,7 +118,8 @@ Example:
 
 ## Supported Plugins
 
-Currently, the following plugins are supported (more will be added as needed):
+<details>
+<summary>Currently, the following plugins are supported (more will be added as needed):</summary>
 
 - gitsigns.nvim
 - glance.nvim
@@ -134,8 +134,11 @@ Currently, the following plugins are supported (more will be added as needed):
 - render-markdown.nvim
 - telescope.nvim
 - treesitter-context
+- snacks.indent
 - vim-illuminate
 - which-key.nvim
+
+</details>
 
 ## Acknowledgements
 
