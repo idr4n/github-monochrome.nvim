@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nvim --cmd "set rtp+=." --headless +"lua require('github-monochrome.extra').setup()" +qa

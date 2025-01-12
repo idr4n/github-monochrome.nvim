@@ -1,0 +1,34 @@
+# Alacritty Colors (github_monochrome_light)
+
+# Default colors
+[colors.primary]
+background = "#FFFFFF"
+foreground = "#2B343F"
+
+[colors.cursor]
+cursor     = "#9775FA"
+text       = "#FFFFFF"
+
+[colors.selection]
+background = "#CDDCEF"
+text       = "#2B343F"
+
+[colors.normal]
+black      = "#1F252D"
+red        = "#D73A49"
+green      = "#2B343F"
+yellow     = "#7042C5"
+blue       = "#0350AE"
+magenta    = "#A268F6"
+cyan       = "#04BABA"
+white      = "#70818F"
+
+[colors.bright]
+black      = "#55667B"
+red        = "#FB2843"
+green      = "#2D4054"
+yellow     = "#8241EE"
+blue       = "#005BC6"
+magenta    = "#AD78FF"
+cyan       = "#00C9C9"
+white      = "#2B343F"
