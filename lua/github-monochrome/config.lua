@@ -15,8 +15,8 @@ M.defaults = {
     keywords = { bold = true },
     functions = { bold = true },
     statements = { bold = true }, -- e.g., try/except statements, but also if, for, etc.
-    conditionals = { bold = false }, -- e.g., if statements
-    loops = { bold = false }, -- e.g., for, while statements
+    conditionals = { bold = true }, -- e.g., if statements
+    loops = { bold = true }, -- e.g., for, while statements
     variables = {},
     floats = "normal",
     sidebars = "normal",
@@ -24,13 +24,13 @@ M.defaults = {
 
   --- Override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  --- @param style "light"|"dark"
+  ---@param style "light"|"dark"
   on_colors = function(colors, style) end,
 
   --- Override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  --- @param style "light"|"dark"
+  ---@param style "light"|"dark"
   on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>
