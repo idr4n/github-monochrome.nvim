@@ -88,7 +88,7 @@ function M.get(c, opts)
     Identifier                  = { fg = c.fg, bold = true, style = opts.styles.variables },
     Italic                      = { italic = true, fg = c.fg },
     Keyword                     = { fg = c.fg, style = opts.styles.keywords },
-    Operator                    = { fg = c.fg, bold = true },
+    Operator                    = { fg = c.fg },
     PreProc                     = { fg = c.fg },
     Special                     = { fg = c.fg },
     Statement                   = { fg = c.fg, style = opts.styles.statements },
