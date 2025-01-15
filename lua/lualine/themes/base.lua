@@ -16,7 +16,7 @@ local function on_colors(colors, style)
   }
 
   if style == "light" then
-    ret.normal.bg_a = "#0350AE"
+    ret.normal.bg_a = "#000000"
   end
 
   return ret
