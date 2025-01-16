@@ -142,6 +142,7 @@ Example:
 - render-markdown.nvim (render-markdown)
 - telescope.nvim (telescope)
 - snacks indent (snacks_indent)
+- snacks picker (snacks_picker)
 - vim-illuminate (illuminate)
 - which-key.nvim (which-key)
 
