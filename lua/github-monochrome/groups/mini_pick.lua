@@ -16,7 +16,7 @@ function M.get(c)
     MiniPickHeader        = "DiagnosticFloatingHint",
     MiniPickMatchCurrent  = "CursorLine",
     MiniPickMatchMarked   = "Visual",
-    MiniPickMatchRanges = { fg = c.purple, bold = true },
+    MiniPickMatchRanges   = { fg = c.purple, bold = true },
     MiniPickNormal        = "NormalFloat",
     MiniPickPreviewLine   = "CursorLine",
     MiniPickPreviewRegion = "IncSearch",
