@@ -15,6 +15,7 @@ function M.get(c)
     SnacksPickerDir                 = { fg = c.hint_fg },
     SnacksPickerFile                = { fg = c.fg },
     SnacksPickerMatch               = { fg = c.magenta, bold = true },
+    SnacksPickerTotals              = { fg = c.hint_fg },
   }
 end
 
