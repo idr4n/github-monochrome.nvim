@@ -1,6 +1,6 @@
 -- This work is originally based on and modified from https://github.com/folke/tokyonight.nvim.
 
-local Util = require("tokyonight.util")
+local Util = require("github-monochrome.util")
 
 local M = {}
 
