@@ -28,7 +28,7 @@ function M.get(c, opts)
     WinSeparator                = { fg = c.border, },
     Folded                      = { fg = c.blue, bg = c.bg_dark },
     FoldColumn                  = { bg = opts.transparent and c.none or c.bg, fg = c.comment },
-    SignColumn                  = { bg = opts.transparent and c.none or c.bg, fg = c.fg_gutter },
+    SignColumn                  = { fg = c.fg_gutter },
     SignColumnSB                = { bg = c.bg_sidebar, fg = c.fg_gutter },
     Substitute                  = { bg = c.red, fg = c.black },
     LineNr                      = { fg = c.fg_gutter },
