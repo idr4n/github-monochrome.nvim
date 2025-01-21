@@ -32,8 +32,8 @@ local colors = {
   visual         = "#DBE7F4",
 
   -- Highlight Colors
-  bg_dark        = "#F3F5F8",
-  bg_highlight   = "#F6F8FA",
+  bg_dark        = "#FAFCFF",
+  bg_highlight   = "#F4F6FC",
   highlight      = "#EBEBEB",
 
   git            = {
