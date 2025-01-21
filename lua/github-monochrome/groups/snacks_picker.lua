@@ -7,9 +7,10 @@ function M.get(c)
   -- stylua: ignore
   return {
     SnacksPickerInputTitle          = { fg = c.orange, bg = c.bg_float },
+    SnacksPickerInputBorder         = { fg = c.magenta, bg = c.bg_float },
     SnacksPickerBoxTitle            = { fg = c.orange, bg = c.bg_float },
     SnacksPickerPreviewTitle        = { fg = c.orange, bg = c.bg_float },
-    SnacksPickerListCursorLine      = { bg = c.highlight },
+    SnacksPickerListCursorLine      = { bg = c.bg_highlight },
     SnacksPickerPreviewCursorLine   = { bg = c.visual },
     SnacksPickerSelected            = { fg = c.magenta},
     SnacksPickerDir                 = { fg = c.hint_fg },
