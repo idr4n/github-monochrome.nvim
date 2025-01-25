@@ -19,7 +19,7 @@ function M.get(c, opts)
     NvimTreeRootFolder   = { fg = c.blue, bold = true },
     NvimTreeSpecialFile  = { fg = c.purple, underline = true },
     NvimTreeSymlink      = { fg = c.blue },
-    NvimTreeWinSeparator = { fg = opts.styles.sidebars == "transparent" and c.border or c.bg_sidebar, bg = c.bg_sidebar },
+    NvimTreeWinSeparator = { fg = opts.styles.sidebars == "dark" and c.bg_sidebar or c.border, bg = c.bg_sidebar },
   }
 end
 
