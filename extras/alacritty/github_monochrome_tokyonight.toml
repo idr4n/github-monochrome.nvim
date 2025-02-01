@@ -1,0 +1,34 @@
+# Alacritty Colors (github_monochrome_tokyonight)
+
+# Default colors
+[colors.primary]
+background = "#1A1B26"
+foreground = "#C8D3F5"
+
+[colors.cursor]
+cursor     = "#C0CAF5"
+text       = "#1A1B26"
+
+[colors.selection]
+background = "#28344A"
+text       = "#C8D3F5"
+
+[colors.normal]
+black      = "#0C0E14"
+red        = "#F7768E"
+green      = "#C8D3F5"
+yellow     = "#9D7CD8"
+blue       = "#7AA2F7"
+magenta    = "#BB9AF7"
+cyan       = "#7DCFFF"
+white      = "#8A92B2"
+
+[colors.bright]
+black      = "#414868"
+red        = "#FF899D"
+green      = "#D8E1FE"
+yellow     = "#AD86F1"
+blue       = "#8DB0FF"
+magenta    = "#C7A9FF"
+cyan       = "#A4DAFF"
+white      = "#C8D3F5"

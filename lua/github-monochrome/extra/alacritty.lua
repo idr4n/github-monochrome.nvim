@@ -14,6 +14,10 @@ function M.template(colors, ext_name, theme_name)
       cursor = "#C8D3F5",
       sel_background = "#3B5070",
     },
+    tokyonight = {
+      cursor = "#C0CAF5",
+      sel_background = "#28344A",
+    },
   }
 
   colors = Util.convert_colors_to_upper(vim.tbl_extend("force", colors, extra_colors[theme_name]))
