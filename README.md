@@ -1,10 +1,10 @@
 # 🎨 Github Monochrome
 
-A set of monochromatic light and dark themes, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed).
+A set of monochromatic light and dark colorschemes for Neovim, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed).
 
 Three styles (themes) are available at the moment: **light, dark, and tokyonight**. Few others variations are planned to be added. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/) (more on the way).
 
-The project structure follows closely [Tokyonight.nivm](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
+The project structure follows closely [Tokyonight.nvim](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
 ![github-monochrome](https://github.com/user-attachments/assets/fe6a4089-632b-42c8-acfd-3c92abefc621)
 
