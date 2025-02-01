@@ -6,7 +6,8 @@ Three styles (themes) are available at the moment: **light, dark, and tokyonight
 
 The project structure follows closely [Tokyonight.nivm](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
-![github-monochrome](https://github.com/user-attachments/assets/55ab0296-fcbb-49f3-ace1-15c98c9b44d8)
+![github-monochrome](https://github.com/user-attachments/assets/fe6a4089-632b-42c8-acfd-3c92abefc621)
+
 
 ## Requirements
 
