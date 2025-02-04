@@ -18,6 +18,14 @@ function M.template(colors, ext_name, theme_name)
       cursor = "#C0CAF5",
       sel_background = "#28344A",
     },
+    rosepine = {
+      cursor = "#E0DEF4",
+      sel_background = "#403d52",
+    },
+    ["rosepine-dawn"] = {
+      cursor = "#575279",
+      sel_background = "#DFDAD9",
+    },
   }
 
   colors = Util.convert_colors_to_upper(vim.tbl_extend("force", colors, extra_colors[theme_name]))

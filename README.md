@@ -2,7 +2,7 @@
 
 A set of monochromatic light and dark color schemes for Neovim, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed).
 
-Three styles (themes) are available at the moment: **light, dark, and tokyonight**. Few others variations are planned to be added. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/) (more on the way).
+The following styles (themes) are available at the moment: **light, dark, tokyonight, rosepine, and rosepine-dawn**. Few others variations are planned to be added. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/).
 
 The project structure follows closely [Tokyonight.nvim](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
@@ -35,6 +35,8 @@ To enable the theme with a specific style, use:
 - `vim.cmd("colorscheme github-monochrome-light")`
 - `vim.cmd("colorscheme github-monochrome-dark")`
 - `vim.cmd("colorscheme github-monochrome-tokyonight")`
+- `vim.cmd("colorscheme github-monochrome-rosepine")`
+- `vim.cmd("colorscheme github-monochrome-rosepine-dawn")`
 
 ## Configuration
 
@@ -45,7 +47,7 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
 ```lua
 {
-  style = "light", -- "light", "dark", "tokyonight"
+  style = "light", -- "light", "dark", "tokyonight", "rosepine", "rosepine-dawn"
   transparent = false,
   terminal_colors = true, -- Configure the colors used when opening a `:terminal`
   lualine_bold = { a = true, b = false, c = false }, -- make lualine sections a, b, or c bold
@@ -64,13 +66,13 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
   --- You can override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  --- @param style? "light"|"dark"|"tokyonight"
+  --- @param style? "light"|"dark"|"tokyonight"|"rosepine"|"rosepine-dawn"
   on_colors = function(colors, style) end,
 
   --- You can override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  --- @param style? "light"|"dark"|"tokyonight"
+  --- @param style? "light"|"dark"|"tokyonight"|"rosepine"|"rosepine-dawn"
   on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>

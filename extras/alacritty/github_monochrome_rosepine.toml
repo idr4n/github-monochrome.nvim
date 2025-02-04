@@ -1,0 +1,34 @@
+# Alacritty Colors (github_monochrome_rosepine)
+
+# Default colors
+[colors.primary]
+background = "#191724"
+foreground = "#E0DEF4"
+
+[colors.cursor]
+cursor     = "#E0DEF4"
+text       = "#191724"
+
+[colors.selection]
+background = "#403D52"
+text       = "#E0DEF4"
+
+[colors.normal]
+black      = "#16141F"
+red        = "#EB6F92"
+green      = "#E0DEF4"
+yellow     = "#9E6FD8"
+blue       = "#66AECA"
+magenta    = "#C4A7E7"
+cyan       = "#9CCFD8"
+white      = "#908CAA"
+
+[colors.bright]
+black      = "#21202E"
+red        = "#FC7B9F"
+green      = "#EEEDFC"
+yellow     = "#AF77F2"
+blue       = "#47BFE6"
+magenta    = "#D3B4F7"
+cyan       = "#8AE2F0"
+white      = "#E0DEF4"
