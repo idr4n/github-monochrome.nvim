@@ -6,7 +6,71 @@ The following styles (themes) are available at the moment: **light, dark, tokyon
 
 The project structure follows closely [Tokyonight.nvim](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
-![github-monochrome](https://github.com/user-attachments/assets/fe6a4089-632b-42c8-acfd-3c92abefc621)
+![github-monochrome](https://github.com/user-attachments/assets/405403ff-a08c-43d4-a05b-b6c6414268ab)
+
+
+## Styles
+
+<details>
+<summary>The following styles are available:</summary>
+
+<br>
+
+**Note**: the font used in the screenshots below is 'Berkeley Mono', while in the screenshot above is 'Zed Plex Mono'.
+
+<br>
+
+<details>
+<summary><b>light</b></summary>
+
+![github-monochrome-light](https://github.com/user-attachments/assets/264b9637-3efe-4bfe-9134-da79c906e6e6)
+
+Activate with `vim.cmd("colorscheme github-monochrome-light")`.
+
+</details>
+
+<details>
+<summary><b>dark</b></summary>
+
+![github-monochrome-dark](https://github.com/user-attachments/assets/b73e7004-25c8-453c-a782-c106647538af)
+
+Activate with `vim.cmd("colorscheme github-monochrome-dark")`.
+
+</details>
+
+<details>
+<summary><b>rosepine</b></summary>
+
+![github-monochrome-rosepine](https://github.com/user-attachments/assets/902d493c-007e-418c-b1b5-582d1a355379)
+
+Activate with `vim.cmd("colorscheme github-monochrome-rosepine")`.
+
+This style is based on [rose-pine/neovim](https://github.com/rose-pine/neovim).
+
+</details>
+
+<details>
+<summary><b>rosepine-dawn</b></summary>
+
+![github-monochrome-rosepine-dawn](https://github.com/user-attachments/assets/dd57e4b4-9724-47dd-98f8-ee2471ebbc3d)
+
+Activate with `vim.cmd("colorscheme github-monochrome-rosepine-dawn")`.
+
+This style is based on [rose-pine/neovim](https://github.com/rose-pine/neovim).
+
+</details>
+
+<details>
+<summary><b>tokyonight</b></summary>
+
+![github-monochrome-tokyonight](https://github.com/user-attachments/assets/2a97940c-7b93-4ee9-9d0a-6e0299facc0f)
+
+Activate with `vim.cmd("colorscheme github-monochrome-tokyonight")`
+
+This style is based on [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim).
+
+</details>
+</details>
 
 
 ## Requirements
