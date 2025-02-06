@@ -7,7 +7,7 @@ M.version = "1.0.0"
 M.light_styles = { "light", "rosepine-dawn" }
 
 M.defaults = {
-  style = "light", -- "light", "dark", "tokyonight", "rosepine", "rosepine-dawn"
+  style = "light", -- "light", "dark", "solarized", "tokyonight", "rosepine", "rosepine-dawn"
   transparent = false,
   terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
   lualine_bold = { a = true }, -- make lualine sections a, b, or c bold
@@ -26,13 +26,13 @@ M.defaults = {
 
   --- Override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  ---@param style "light"|"dark"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  ---@param style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
   on_colors = function(colors, style) end,
 
   --- Override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  ---@param style "light"|"dark"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  ---@param style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
   on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>

@@ -14,6 +14,10 @@ function M.template(colors, ext_name, theme_name)
       cursor = "#C8D3F5",
       sel_background = "#3B5070",
     },
+    solarized = {
+      cursor = "#D30102",
+      sel_background = "#073642",
+    },
     tokyonight = {
       cursor = "#C0CAF5",
       sel_background = "#28344A",

@@ -2,12 +2,12 @@
 
 # Default colors
 [colors.primary]
-background = "#0D1117"
+background = "#000000"
 foreground = "#C8D3F5"
 
 [colors.cursor]
 cursor     = "#C8D3F5"
-text       = "#0D1117"
+text       = "#000000"
 
 [colors.selection]
 background = "#3B5070"

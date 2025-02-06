@@ -1,0 +1,34 @@
+# Alacritty Colors (github_monochrome_solarized)
+
+# Default colors
+[colors.primary]
+background = "#002B36"
+foreground = "#839496"
+
+[colors.cursor]
+cursor     = "#D30102"
+text       = "#002B36"
+
+[colors.selection]
+background = "#073642"
+text       = "#839496"
+
+[colors.normal]
+black      = "#002731"
+red        = "#DC322F"
+green      = "#839496"
+yellow     = "#6C71C4"
+blue       = "#268BD2"
+magenta    = "#D33682"
+cyan       = "#2AA198"
+white      = "#657B83"
+
+[colors.bright]
+black      = "#073642"
+red        = "#FF1B12"
+green      = "#7EA5A9"
+yellow     = "#757BE3"
+blue       = "#0099EB"
+magenta    = "#FB0093"
+cyan       = "#00B1A6"
+white      = "#839496"
