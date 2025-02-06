@@ -16,10 +16,6 @@ The project structure follows closely [Tokyonight.nvim](https://github.com/folke
 
 <br>
 
-**Note**: the font used in the screenshots below is 'Berkeley Mono', while in the screenshot above is 'Zed Plex Mono'.
-
-<br>
-
 <details>
 <summary><b>light</b></summary>
 
