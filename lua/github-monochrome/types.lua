@@ -17,7 +17,7 @@
 ---@field floats? string
 ---@field sidebars? string
 
----@alias gm.style "light"|"dark"
+---@alias gm.style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
 
 ---@class gm.Config
 ---@field style gm.style
