@@ -9,6 +9,10 @@ local extras = {
     name = "Ghostty",
     file_ext = nil, -- file extension or nil
   },
+  kitty = {
+    name = "Kitty",
+    file_ext = "conf", -- file extension or nil
+  },
 }
 
 local function get_theme_names()
