@@ -30,7 +30,7 @@ function M.setup(opts)
     add = Util.blend_bg(colors.green, 0.15),
     delete = Util.blend_bg(colors.red, 0.15),
     change = Util.blend_bg(colors.blue, 0.15),
-    text = Util.blend_bg(colors.orange, 0.15),
+    text = Util.blend_bg(colors.blue, 0.3),
   }
 
   colors.git.ignore = colors.text_muted
