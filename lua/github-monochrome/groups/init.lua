@@ -10,6 +10,7 @@ M.plugins = {
   ["gitsigns.nvim"]             = "gitsigns",
   ["glance.nvim"]               = "glance",
   ["indent-blankline.nvim"]     = "indent-blankline",
+  ["mini.icons"]                = "mini_icons",
   ["mini.pick"]                 = "mini_pick",
   ["mini.tabline"]              = "mini_tabline",
   ["neo-tree.nvim"]             = "neo-tree",
