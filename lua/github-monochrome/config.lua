@@ -8,6 +8,7 @@ M.light_styles = { "light", "rosepine-dawn" }
 
 M.defaults = {
   style = "light", -- "light", "dark", "solarized", "tokyonight", "rosepine", "rosepine-dawn"
+  alternate_style = "",
   transparent = false,
   terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
   lualine_bold = { a = true }, -- make lualine sections a, b, or c bold
