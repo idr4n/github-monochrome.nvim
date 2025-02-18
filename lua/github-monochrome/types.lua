@@ -21,6 +21,7 @@
 
 ---@class gm.Config
 ---@field style gm.style
+---@field alternate_style gm.style
 ---@field transparent? boolean
 ---@field terminal_colors? boolean
 ---@field lualine_bold? {a:boolean, b:boolean, c:boolean}

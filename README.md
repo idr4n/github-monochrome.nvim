@@ -119,7 +119,12 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
 ```lua
 {
-  style = "light", -- "light", "dark", "solarized", "tokyonight", "rosepine", "rosepine-dawn"
+  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  style = "light", -- default style when activating theme with `vim.cmd.colorscheme('github-monochrome')`
+
+  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  alternate_style = "", -- Alternate style when manually changing background. Default is either 'light' or 'dark' style.
+
   transparent = false,
   terminal_colors = true, -- Configure the colors used when opening a `:terminal`
   lualine_bold = { a = true, b = false, c = false }, -- make lualine sections a, b, or c bold
