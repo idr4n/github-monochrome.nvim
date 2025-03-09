@@ -7,6 +7,7 @@ local M = {}
 -- stylua: ignore
 M.plugins = {
   ["blink.cmp"]                 = "blink",
+  ["bufferline.nvim"]           = "bufferline",
   ["gitsigns.nvim"]             = "gitsigns",
   ["glance.nvim"]               = "glance",
   ["indent-blankline.nvim"]     = "indent-blankline",

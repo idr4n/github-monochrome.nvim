@@ -216,6 +216,7 @@ Example:
 (use the name in parenthesis to enable/disable in config)
 
 - blink.cmp (blink)
+- bufferline.nvim (bufferline)
 - gitsigns.nvim (gitsigns)
 - glance.nvim (glance)
 - indent-blankline.nvim (indent-blankline)
