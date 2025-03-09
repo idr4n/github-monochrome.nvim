@@ -7,10 +7,11 @@ local M = {}
 M.url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
 
 ---@type gm.HighlightsFn
-function M.get(c)
+function M.get(c, opts)
   -- stylua: ignore
   return {
-    TreesitterContext = { bg = Util.blend_bg(c.purple, 0.1) },
+    TreesitterContext         = { bg = opts.transparent and c.none or Util.blend_bg(c.purple, 0.1) },
+    TreesitterContextBottom   = { bg = c.none, underline = opts.transparent,  sp = c.magenta },
   }
 end
 
