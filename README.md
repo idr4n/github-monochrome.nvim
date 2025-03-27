@@ -80,6 +80,8 @@ This style is based on [folke/tokyonight.nvim](https://github.com/folke/tokyonig
 
 <details>
 <summary><b>zenbones</b></summary>
+  
+![github-monochrome-zenbones](https://github.com/user-attachments/assets/acc03f23-8926-41ec-8e7c-c26b3dd8a40f)
 
 Activate with `vim.cmd.colorscheme("github-monochrome-zenbones")`
 
