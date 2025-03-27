@@ -2,7 +2,7 @@
 
 A set of monochromatic light and dark color schemes for Neovim, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed).
 
-The following styles (themes) are available: **light, dark, solarized, tokyonight, rosepine, rosepine-dawn, and zenbones (dark)**. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty), [Ghostty](https://ghostty.org/), and [kitty](https://github.com/kovidgoyal/kitty).
+The following styles (themes) are available: **light, dark, solarized, tokyonight, rosepine, rosepine-dawn, and zenbones (dark)**. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty), [Ghostty](https://ghostty.org/), and [Kitty](https://github.com/kovidgoyal/kitty).
 
 The project structure follows closely [Tokyonight.nvim](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
