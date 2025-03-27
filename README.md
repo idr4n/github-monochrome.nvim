@@ -2,7 +2,7 @@
 
 A set of monochromatic light and dark color schemes for Neovim, inspired by [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome) and [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed).
 
-The following styles (themes) are available: **light, dark, solarized, tokyonight, rosepine, and rosepine-dawn**. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/).
+The following styles (themes) are available: **light, dark, solarized, tokyonight, rosepine, rosepine-dawn, and zenbones (dark)**. Extra themes are included for [Alacritty](https://github.com/alacritty/alacritty) and [Ghostty](https://ghostty.org/).
 
 The project structure follows closely [Tokyonight.nvim](https://github.com/folke/tokyonight.nvim). Therefore, the theme configuration is very similar, and thanks to this, it allows for a high degree of customization ([see bellow](#configuration)).
 
@@ -77,6 +77,15 @@ Activate with `vim.cmd.colorscheme("github-monochrome-tokyonight")`
 This style is based on [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim).
 
 </details>
+
+<details>
+<summary><b>zenbones</b></summary>
+
+Activate with `vim.cmd.colorscheme("github-monochrome-zenbones")`
+
+This style is based on [zenbones-theme/zenbones.nvim](https://github.com/zenbones-theme/zenbones.nvim)
+
+</details>
 </details>
 
 
@@ -109,6 +118,7 @@ To enable the theme with a specific style, use:
 - `vim.cmd.colorscheme("github-monochrome-tokyonight")`
 - `vim.cmd.colorscheme("github-monochrome-rosepine")`
 - `vim.cmd.colorscheme("github-monochrome-rosepine-dawn")`
+- `vim.cmd.colorscheme("github-monochrome-zenbones")`
 
 ## Configuration
 
@@ -119,10 +129,10 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
 ```lua
 {
-  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
   style = "light", -- default style when activating theme with `vim.cmd.colorscheme('github-monochrome')`
 
-  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  ---@type "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
   alternate_style = "", -- Alternate style when manually changing background. Default is either 'light' or 'dark' style.
 
   transparent = false,
@@ -143,13 +153,13 @@ The configuration is very similar to that of [tokyonight.nivm](https://github.co
 
   --- You can override specific color groups to use other groups or a hex color
   ---@param colors ColorScheme
-  --- @param style? "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  --- @param style? "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
   on_colors = function(colors, style) end,
 
   --- You can override specific highlights to use other groups or a hex color
   ---@param highlights gm.Highlights
   ---@param colors ColorScheme
-  --- @param style? "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+  --- @param style? "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
   on_highlights = function(highlights, colors, style) end,
 
   ---@type table<string, boolean|{enabled:boolean}>

@@ -30,6 +30,10 @@ function M.template(colors, ext_name, theme_name)
       cursor = "#575279",
       sel_background = "#DFDAD9",
     },
+    zenbones = {
+      cursor = "#C4CACE",
+      sel_background = "#403833",
+    },
   }
 
   colors = Util.convert_colors_to_upper(vim.tbl_extend("force", colors, extra_colors[theme_name]))

@@ -30,6 +30,10 @@ function M.template(colors, ext_name, theme_name)
       cursor = "#575279",
       sel_background = "#DFDAD9",
     },
+    zenbones = {
+      cursor = "#C4CACE",
+      sel_background = "#403833",
+    },
   }
 
   local tab_colors = {

@@ -17,11 +17,11 @@
 ---@field floats? string
 ---@field sidebars? string
 
----@alias gm.style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+---@alias gm.style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
 
 ---@class gm.Config
 ---@field style gm.style
----@field alternate_style gm.style
+---@field alternate_style? gm.style
 ---@field transparent? boolean
 ---@field terminal_colors? boolean
 ---@field lualine_bold? {a:boolean, b:boolean, c:boolean}

@@ -5,7 +5,7 @@ local blend_bg = require("github-monochrome.util").blend_bg
 local M = {}
 
 ---@param colors ColorScheme
----@param style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"
+---@param style "light"|"dark"|"solarized"|"tokyonight"|"rosepine"|"rosepine-dawn"|"zenbones"
 local function on_colors(colors, style)
   local ret = {
     bg_statusline = blend_bg(colors.fg, 0.05),

@@ -1,0 +1,34 @@
+# Alacritty Colors (github_monochrome_zenbones)
+
+# Default colors
+[colors.primary]
+background = "#1B1917"
+foreground = "#B4BDC3"
+
+[colors.cursor]
+cursor     = "#C4CACE"
+text       = "#1B1917"
+
+[colors.selection]
+background = "#403833"
+text       = "#B4BDC3"
+
+[colors.normal]
+black      = "#403833"
+red        = "#DE6E7C"
+green      = "#819B69"
+yellow     = "#B87E64"
+blue       = "#6099C0"
+magenta    = "#B278A7"
+cyan       = "#66A5AE"
+white      = "#867A74"
+
+[colors.bright]
+black      = "#403833"
+red        = "#F17988"
+green      = "#84AC5A"
+yellow     = "#D88456"
+blue       = "#48A9DF"
+magenta    = "#D17AC1"
+cyan       = "#4FB7C3"
+white      = "#B4BDC3"

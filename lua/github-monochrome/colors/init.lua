@@ -53,8 +53,9 @@ function M.setup(opts)
   colors.fg_search = colors.fg
   colors.fg_sidebar = Util.blend_bg(colors.fg, 0.7)
   colors.fg_float = colors.fg
-  colors.match_paren_bg = Util.blend_bg(colors.blue, 0.3)
-  colors.match_paren_fg = Util.blend_bg(colors.blue, 0.8)
+  colors.match_paren_bg = opts.style == "zenbones" and Util.blend_bg(colors.magenta, 0.4)
+    or Util.blend_bg(colors.blue, 0.3)
+  colors.match_paren_fg = opts.style == "zenbones" and colors.fg or Util.blend_bg(colors.blue, 0.8)
 
   colors.error = colors.red
   colors.todo = colors.blue
