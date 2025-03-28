@@ -90,7 +90,7 @@ function M.get(c, opts)
     Keyword                     = { fg = c.fg, style = opts.styles.keywords },
     Operator                    = { fg = c.fg },
     PreProc                     = { fg = c.fg },
-    Special                     = { fg = c.fg_dark },
+    Special                     = { fg = c.fg },
     Statement                   = { fg = c.fg, style = opts.styles.statements },
     String                      = { fg = c.string },
     Todo                        = { bg = c.yellow, fg = c.bg },

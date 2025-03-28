@@ -88,7 +88,7 @@ function M.get(c, opts)
     ["@tag"]                          = "Label",
     ["@tag.builtin"]                  = { fg = c.fg },
     ["@tag.attribute"]                = "@property",
-    ["@tag.delimiter"]                = "Delimiter",
+    ["@tag.delimiter"]                = { fg = c.fg_dark },
     ["@tag.tsx"]                      = { fg = c.fg, },
     ["@tag.javascript"]               = { fg = c.fg, },
     ["@type"]                         = "Type",
