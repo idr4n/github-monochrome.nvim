@@ -246,13 +246,14 @@ Example:
 - snacks indent (snacks_indent)
 - snacks picker (snacks_picker)
 - vim-illuminate (illuminate)
+- visual-whitespace.nvim (visual-whitespace)
 - which-key.nvim (which-key)
 
 </details>
 
 ## Acknowledgements
 
-- [folke/tokyonight](https://github.com/folke/tokyonight.nvim): made this plugin possible (_standing on the shoulders of giants!_).
+- [folke/tokyonight](https://github.com/folke/tokyonight.nvim): used for inspiration and as a base project template.
 - [huytd/vscode-github-light-monochrome](https://github.com/huytd/vscode-github-light-monochrome): where inspiration came from.
 - [Nishantdd/github-monochrome-zed](https://github.com/Nishantdd/github-monochrome-zed): nice tweaking to VSCode's version.
 - [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme): general reference.

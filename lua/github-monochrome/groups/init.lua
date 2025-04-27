@@ -25,6 +25,7 @@ M.plugins = {
   ["snacks.indent"]             = "snacks_indent",
   ["snacks.picker"]             = "snacks_picker",
   ["vim-illuminate"]            = "illuminate",
+  ["visual-whitespace.nvim"]    = "visual-whitespace",
   ["which-key.nvim"]            = "which-key",
 }
 
