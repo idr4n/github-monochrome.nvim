@@ -15,6 +15,7 @@ M.plugins = {
   ["mini.pick"]                 = "mini_pick",
   ["mini.tabline"]              = "mini_tabline",
   ["neo-tree.nvim"]             = "neo-tree",
+  ["netrw"]                     = "netrw",
   ["noice.nvim"]                = "noice",
   ["nvim-cmp"]                  = "cmp",
   ["nvim-notify"]               = "notify",
